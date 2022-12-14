@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".CreateCard">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buat Task Baru"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="38sp"
+        android:gravity="left"
+        android:fontFamily="sans-serif"/>
+    <EditText
+        android:id="@+id/create_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Task Baru"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittetext"
+        android:textColorHint="#BFBBBB"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/create_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Prioritas"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittetext"
+        android:textColorHint="#BFBBBB"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="4 Jenis Prioritas yang dapat diketik"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:fontFamily="sans-serif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="- Penting Mendesak"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:fontFamily="sans-serif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="- Tidak Penting Mendesak"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:fontFamily="sans-serif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="- Penting Tidak Mendesak"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:fontFamily="sans-serif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="- Tidak Penting Tidak Mendesak"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:fontFamily="sans-serif"/>
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Save"/>
+
+</LinearLayout>
